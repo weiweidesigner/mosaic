@@ -1,60 +1,60 @@
-Industry,Ticker,Change Percentage (%)
-Semiconductors & Semiconductor Equipment,WISA,125.00%
-Automobiles,FFIE,52.77%
-Biotechnology,ATNF,41.24%
-Biotechnology,ATRA,32.89%
-Biotechnology,FGEN,20.36%
-Biotechnology,QNRX,17.84%
-Biotechnology,MAIA,15.75%
-Biotechnology,CALC,12.03%
-Aerospace & Defense,BYRN,38.14%
-Diversified Telecommunication Services,FYBR,37.95%
-Diversified Telecommunication Services,LUMN,14.23%
-Diversified Telecommunication Services,ASTS,12.48%
-Chemicals,TANH,34.53%
-Food Products,TWG,33.50%
-Professional Services,ATIF,30.69%
-Software,ASST,29.76%
-Software,GTLB,21.64%
-Software,FAAS,18.25%
-Electrical Equipment,LASE,28.57%
-Beverages,LQR,27.17%
-Insurance,CNFR,26.96%
-Insurance,CLOV,14.60%
-Health Care Equipment & Supplies,BFLY,26.89%
-Health Care Equipment & Supplies,AMIX,25.39%
-Health Care Equipment & Supplies,WOK,19.97%
-Health Care Equipment & Supplies,SNOA,13.90%
-Health Care Equipment & Supplies,LFVN,13.88%
-Health Care Equipment & Supplies,XYLO,12.15%
-Broadline Retail,AKA,22.62%
-Broadline Retail,HYFM,18.30%
-Broadline Retail,RENT,15.25%
-Textiles, Apparel & Luxury Goods,ATXG,21.54%
-Diversified Consumer Services,GSUN,20.00%
-Oil, Gas & Consumable Fuels,LODE,18.73%
-Oil, Gas & Consumable Fuels,PED,13.94%
-Ground Transportation,RYDE,18.25%
-Health Care Technology,DHAI,17.17%
-Electronic Equipment, Instruments & Components,CRKN,17.12%
-Electronic Equipment, Instruments & Components,ZEO,16.28%
-Electronic Equipment, Instruments & Components,XPON,13.01%
-Electronic Equipment, Instruments & Components,FCUV,11.96%
-Pharmaceuticals,MAIA,15.75%
-Pharmaceuticals,RGC,13.36%
-Pharmaceuticals,CLNN,12.50%
-Pharmaceuticals,LRMR,12.28%
-Personal Care Products,SKIN,14.62%
-Personal Care Products,WALD,14.29%
-Independent Power and Renewable Electricity Producers,NOVA,14.57%
-Life Sciences Tools & Services,GNLX,13.94%
-Containers & Packaging,JBDI,18.30%
-Commercial Services & Supplies,YYGH,18.29%
-Commercial Services & Supplies,EJH,13.74%
-Commercial Services & Supplies,SERV,13.35%
-Commercial Services & Supplies,PGHL,12.25%
-Media,ATUS,13.33%
-Leisure Products,SRM,13.03%
-Consumer Staples Distribution & Retail,NAII,12.73%
-Retail REITs,IRS,12.17%
-Metals & Mining,INHD,12.19%
+Industry,Ticker,Change Percentage
+Semiconductors & Semiconductor Equipment,WISA,125.00
+Automobiles,FFIE,52.77
+Biotechnology,ATNF,41.24
+Biotechnology,ATRA,32.89
+Biotechnology,FGEN,20.36
+Biotechnology,QNRX,17.84
+Biotechnology,MAIA,15.75
+Biotechnology,CALC,12.03
+Aerospace & Defense,BYRN,38.14
+Diversified Telecommunication Services,FYBR,37.95
+Diversified Telecommunication Services,LUMN,14.23
+Diversified Telecommunication Services,ASTS,12.48
+Chemicals,TANH,34.53
+Food Products,TWG,33.50
+Professional Services,ATIF,30.69
+Software,ASST,29.76
+Software,GTLB,21.64
+Software,FAAS,18.25
+Electrical Equipment,LASE,28.57
+Beverages,LQR,27.17
+Insurance,CNFR,26.96
+Insurance,CLOV,14.60
+Health Care Equipment & Supplies,BFLY,26.89
+Health Care Equipment & Supplies,AMIX,25.39
+Health Care Equipment & Supplies,WOK,19.97
+Health Care Equipment & Supplies,SNOA,13.90
+Health Care Equipment & Supplies,LFVN,13.88
+Health Care Equipment & Supplies,XYLO,12.15
+Broadline Retail,AKA,22.62
+Broadline Retail,HYFM,18.30
+Broadline Retail,RENT,15.25
+Textiles, Apparel & Luxury Goods,ATXG,21.54
+Diversified Consumer Services,GSUN,20.00
+Oil, Gas & Consumable Fuels,LODE,18.73
+Oil, Gas & Consumable Fuels,PED,13.94
+Ground Transportation,RYDE,18.25
+Health Care Technology,DHAI,17.17
+Electronic Equipment, Instruments & Components,CRKN,17.12
+Electronic Equipment, Instruments & Components,ZEO,16.28
+Electronic Equipment, Instruments & Components,XPON,13.01
+Electronic Equipment, Instruments & Components,FCUV,11.96
+Pharmaceuticals,MAIA,15.75
+Pharmaceuticals,RGC,13.36
+Pharmaceuticals,CLNN,12.50
+Pharmaceuticals,LRMR,12.28
+Personal Care Products,SKIN,14.62
+Personal Care Products,WALD,14.29
+Independent Power and Renewable Electricity Producers,NOVA,14.57
+Life Sciences Tools & Services,GNLX,13.94
+Containers & Packaging,JBDI,18.30
+Commercial Services & Supplies,YYGH,18.29
+Commercial Services & Supplies,EJH,13.74
+Commercial Services & Supplies,SERV,13.35
+Commercial Services & Supplies,PGHL,12.25
+Media,ATUS,13.33
+Leisure Products,SRM,13.03
+Consumer Staples Distribution & Retail,NAII,12.73
+Retail REITs,IRS,12.17
+Metals & Mining,INHD,12.19
