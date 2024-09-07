@@ -1,25 +1,61 @@
-age,gender,population
-0-4 岁,男性,10.4
-0-4 岁,女性,10.0
-5-9 岁,男性,10.2
-5-9 岁,女性,9.8
-10-14 岁,男性,10.1
-10-14 岁,女性,9.7
-15-19 岁,男性,10.0
-15-19 岁,女性,9.6
-20-24 岁,男性,9.9
-20-24 岁,女性,9.8
-25-34 岁,男性,21.0
-25-34 岁,女性,20.5
-35-44 岁,男性,20.0
-35-44 岁,女性,19.6
-45-54 岁,男性,19.2
-45-54 岁,女性,19.0
-55-64 岁,男性,18.0
-55-64 岁,女性,18.5
-65-74 岁,男性,15.0
-65-74 岁,女性,16.0
-75-84 岁,男性,8.5
-75-84 岁,女性,10.0
-85 岁及以上,男性,3.0
-85 岁及以上,女性,5.5
+Rank,Ticker,Company,Price,Change Percentage (%),Change,Industry
+1,WISA,WiSA Technologies,3.06,125.00%,125.00,Semiconductors & Semiconductor Equipment
+2,FFIE,Faraday Future,5.24,52.77%,52.77,Automobiles
+3,ATNF,180 Life,2.50,41.24%,41.24,Biotechnology
+4,BYRN,Byrna Technologies,14.85,38.14%,38.14,Aerospace & Defense
+5,FYBR,Frontier Communications,38.68,37.95%,37.95,Diversified Telecommunication Services
+6,TANH,Tantech Holdings,0.19,34.53%,34.53,Chemicals
+7,TWG,Top Wealth,1.06,33.50%,33.50,Food Products
+8,ATRA,Atara,9.05,32.89%,32.89,Biotechnology
+9,ATIF,ATIF Holdings,0.83,30.67%,30.69,Professional Services
+10,ASST,Asset Entities,2.66,29.76%,29.76,Software
+11,LASE,Laser Photonics,4.23,28.57%,28.57,Electrical Equipment
+12,LQR,LQR House,0.79,27.21%,27.17,Beverages
+13,CNFR,Conifer Holdings,1.46,26.96%,26.96,Insurance
+14,BFLY,Butterfly Network,1.51,26.89%,26.89,Health Care Equipment & Supplies
+15,AMIX,Autonomix Medical,0.91,25.39%,25.39,Health Care Equipment & Supplies
+16,AKA,a.k.a. Brands,22.44,22.62%,22.62,Broadline Retail
+17,GTLB,GitLab,54.35,21.64%,21.64,Software
+18,ATXG,Addentax Group,0.62,21.57%,21.54,Textiles, Apparel & Luxury Goods
+19,FGEN,Fibrogen,0.40,20.36%,20.36,Biotechnology
+20,GSUN,Golden Sun,7.14,20.00%,20.00,Diversified Consumer Services
+21,WOK,WORK Medical,7.57,19.97%,19.97,Health Care Equipment & Supplies
+22,LODE,Comstock,0.33,18.73%,18.73,Oil, Gas & Consumable Fuels
+23,HYFM,Hydrofarm,0.60,18.35%,18.30,Broadline Retail
+24,JBDI,JBDI Holdings,14.87,18.30%,18.30,Containers & Packaging
+25,YYGH,Yy Group,0.92,18.24%,18.29,Commercial Services & Supplies
+26,FAAS,DigiAsia,1.49,18.25%,18.25,Software
+27,RYDE,Ryde Group,9.07,18.25%,18.25,Ground Transportation
+28,QNRX,Quoin,0.80,17.81%,17.84,Biotechnology
+29,DHAI,DIH Holding US,2.32,17.17%,17.17,Health Care Technology
+30,CRKN,Crown,1.71,17.12%,17.12,Electronic Equipment, Instruments & Components
+31,ZEO,Zeo Energy,2.00,16.28%,16.28,Electronic Equipment, Instruments & Components
+32,MAIA,MAIA Biotechnology,3.38,15.75%,15.75,Pharmaceuticals
+33,RENT,Rent the Runway,13.98,15.25%,15.25,Broadline Retail
+34,SKIN,The Beauty Health,1.96,14.62%,14.62,Personal Care Products
+35,CLOV,Clover Health,2.87,14.60%,14.60,Insurance
+36,NOVA,Sunnova Energy,11.56,14.57%,14.57,Independent Power and Renewable Electricity Producers
+37,CSLMU,CSLM Acquisition-U,12.89,14.37%,14.37,
+38,WALD,Waldencast,3.44,14.29%,14.29,Personal Care Products
+39,LUMN,Lumen Technologies,5.38,14.23%,14.23,Diversified Telecommunication Services
+40,GNLX,Genelux,2.37,13.94%,13.94,Life Sciences Tools & Services
+41,PED,PEDEVCO,0.95,13.94%,13.94,Oil, Gas & Consumable Fuels
+42,SNOA,Sonoma Pharmaceuticals,3.20,13.90%,13.90,Health Care Equipment & Supplies
+43,MCAGU,Mountain Crest-U,12.38,13.89%,13.89,
+44,LFVN,Lifevantage,8.78,13.88%,13.88,Health Care Equipment & Supplies
+45,EJH,E-Home Household Service,0.11,13.26%,13.74,Commercial Services & Supplies
+46,RGC,Regencell Bioscience,7.42,13.36%,13.36,Pharmaceuticals
+47,SERV,Serve Robotics,8.15,13.35%,13.35,Commercial Services & Supplies
+48,ATUS,Altice USA,2.04,13.33%,13.33,Media
+49,SRM,SRM Entertainment,0.85,13.03%,13.03,Leisure Products
+50,XPON,Expion360,0.07,13.39%,13.01,Electronic Equipment, Instruments & Components
+51,NAII,Natural Alternatives,6.73,12.73%,12.73,Consumer Staples Distribution & Retail
+52,CLNN,Clene,6.66,12.50%,12.50,Pharmaceuticals
+53,ASTS,AST SpaceMobile,33.08,12.48%,12.48,Diversified Telecommunication Services
+54,LRMR,Larimar,7.77,12.28%,12.28,Pharmaceuticals
+55,PGHL,Primega,8.75,12.25%,12.25,Commercial Services & Supplies
+56,INHD,INNO HOLDINGS,0.45,12.25%,12.19,Metals & Mining
+57,IRS,IRSA Investments,11.34,12.17%,12.17,Retail REITs
+58,XYLO,Xylo Technologies,3.77,12.15%,12.15,Health Care Equipment & Supplies
+59,CALC,CalciMedica,5.03,12.03%,12.03,Biotechnology
+60,FCUV,Focus Universal,0.34,11.88%,11.96,Electronic Equipment, Instruments & Components
