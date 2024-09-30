@@ -1,60 +1,102 @@
-Industry,Ticker,Change Percentage
-Semiconductors & Semiconductor Equipment,WISA,125.00
-Automobiles,FFIE,52.77
-Biotechnology,ATNF,41.24
-Biotechnology,ATRA,32.89
-Biotechnology,FGEN,20.36
-Biotechnology,QNRX,17.84
-Biotechnology,MAIA,15.75
-Biotechnology,CALC,12.03
-Aerospace & Defense,BYRN,38.14
-Diversified Telecommunication Services,FYBR,37.95
-Diversified Telecommunication Services,LUMN,14.23
-Diversified Telecommunication Services,ASTS,12.48
-Chemicals,TANH,34.53
-Food Products,TWG,33.50
-Professional Services,ATIF,30.69
-Software,ASST,29.76
-Software,GTLB,21.64
-Software,FAAS,18.25
-Electrical Equipment,LASE,28.57
-Beverages,LQR,27.17
-Insurance,CNFR,26.96
-Insurance,CLOV,14.60
-Health Care Equipment & Supplies,BFLY,26.89
-Health Care Equipment & Supplies,AMIX,25.39
-Health Care Equipment & Supplies,WOK,19.97
-Health Care Equipment & Supplies,SNOA,13.90
-Health Care Equipment & Supplies,LFVN,13.88
-Health Care Equipment & Supplies,XYLO,12.15
-Broadline Retail,AKA,22.62
-Broadline Retail,HYFM,18.30
-Broadline Retail,RENT,15.25
-Textiles, Apparel & Luxury Goods,ATXG,21.54
-Diversified Consumer Services,GSUN,20.00
-Oil, Gas & Consumable Fuels,LODE,18.73
-Oil, Gas & Consumable Fuels,PED,13.94
-Ground Transportation,RYDE,18.25
-Health Care Technology,DHAI,17.17
-Electronic Equipment, Instruments & Components,CRKN,17.12
-Electronic Equipment, Instruments & Components,ZEO,16.28
-Electronic Equipment, Instruments & Components,XPON,13.01
-Electronic Equipment, Instruments & Components,FCUV,11.96
-Pharmaceuticals,MAIA,15.75
-Pharmaceuticals,RGC,13.36
-Pharmaceuticals,CLNN,12.50
-Pharmaceuticals,LRMR,12.28
-Personal Care Products,SKIN,14.62
-Personal Care Products,WALD,14.29
-Independent Power and Renewable Electricity Producers,NOVA,14.57
-Life Sciences Tools & Services,GNLX,13.94
-Containers & Packaging,JBDI,18.30
-Commercial Services & Supplies,YYGH,18.29
-Commercial Services & Supplies,EJH,13.74
-Commercial Services & Supplies,SERV,13.35
-Commercial Services & Supplies,PGHL,12.25
-Media,ATUS,13.33
-Leisure Products,SRM,13.03
-Consumer Staples Distribution & Retail,NAII,12.73
-Retail REITs,IRS,12.17
-Metals & Mining,INHD,12.19
+二级行业,股票简称,涨跌幅(%)
+家居用品,众鑫股份,3.926
+建筑装饰,*ST农尚,3.876
+软件开发,通达海,4.926
+软件开发,银之杰,20.018
+软件开发,法本信息,5.459
+软件开发,南天信息,3.679
+软件开发,拓维信息,3.228
+软件开发,创意信息,5.441
+软件开发,中科江南,7.306
+软件开发,恒锋信息,5.051
+软件开发,诚迈科技,9.056
+软件开发,云赛智联,8.877
+通信服务,宜通世纪,7.937
+通信服务,中富通,4.5
+通信服务,北纬科技,3.181
+通信服务,美利云,4.941
+通信设备,日海智能,4.136
+通信设备,大唐电信,-1.847
+通信设备,鼎信通讯,-0.173
+通信设备,海能达,-4.416
+通信设备,美利信,8.146
+通信设备,东方通信,2.513
+消费电子,慧为智能,11.452
+消费电子,波导股份,2.073
+消费电子,卓翼科技,2.449
+消费电子,福日电子,3.212
+消费电子,春秋电子,4.073
+消费电子,安洁科技,6.82
+消费电子,智新电子,8.999
+品牌消费电子,传音控股,5.847
+品牌消费电子,国光电器,4.138
+专用设备,银宝山新,3.66
+专用设备,和科达,1.165
+自动化设备,海得控制,4.158
+自动化设备,瑞松科技,-2.175
+通用设备,宇晶股份,7.508
+通用设备,宝塔实业,-10.012
+工业金属,鹏欣资源,9.854
+工业金属,金诚信,3.823
+汽车零部件,万安科技,6.999
+汽车零部件,日盈电子,2.754
+汽车零部件,一彬科技,4.016
+汽车零部件,申达股份,1.749
+汽车零部件,雷迪克,6.182
+汽车零部件,金鸿顺,3.403
+汽车零部件,瑞鹄模具,3.322
+产业地产,海泰发展,1.984
+产业地产,张江高科,3.571
+住宅开发,渝开发,4.02
+住宅开发,新华联,5.625
+输变电设备,保变电气,-3.802
+输变电设备,中电兴发,3.546
+电气自控设备,华盛昌,4.386
+生物制品,双成药业,9.985
+化学制药,赛托生物,7.231
+饮料制造,莫高股份,2.076
+白酒,岩石股份,9.987
+热力,大连热电,1.741
+高速公路,重庆路桥,2.686
+百货零售,供销大集,4.211
+百货零售,银座股份,1.814
+互联网电商,吉宏股份,5.085
+数字媒体,值得买,2.504
+出版,新华传媒,2.208
+化学制品,华软科技,3.548
+非金属材料,龙高股份,0.0
+印制电路板,金禄电子,4.478
+电子化学品,德邦科技,5.745
+航空装备,烽火电子,2.493
+地面兵装,捷强装备,4.283
+军工电子,奥维通信,3.469
+军工电子,宏达电子,6.083
+综合环境治理,岭南股份,1.316
+环保设备,国林科技,5.137
+专业服务,实朴检测,6.796
+多元金融,弘业期货,3.165
+多元金融,新力金融,0.131
+横向通用软件,任子行,6.813
+横向通用软件,国华网安,2.988
+其他计算机设备,盛视科技,4.572
+其他计算机设备,正元智慧,5.247
+IT服务,新炬网络,3.283
+IT服务,汇纳科技,8.957
+家电零部件,海立股份,-0.622
+消费电子,国光电器,4.211
+白色家电,大龙地产,3.01
+有色金属,拓维信息,2.744
+医药生物,常山北明,5.459
+纺织服饰,盛视科技,-2.31
+食品饮料,诚迈科技,5.247
+通信设备,大唐电信,5.562
+化学制品,长城证券,-1.747
+机械设备,海得控制,6.182
+电力设备,春秋电子,2.19
+机械设备,江铃汽车,5.478
+环保设备,天威保变,-3.234
+计算机,瑞鹄模具,6.253
+传媒,金正食品,-2.798
+汽车零部件,欧菲光,4.943
+计算机,中信重工,5.663
+建筑装饰,未知股票,1.27
