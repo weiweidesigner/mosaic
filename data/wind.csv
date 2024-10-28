@@ -1,102 +1,101 @@
-同花顺二级行业,股票简称,涨跌幅(%)
-家居用品,众鑫股份,3.926
-建筑装饰,*ST农尚,3.876
-软件开发,通达海,4.926
-软件开发,银之杰,20.018
-软件开发,法本信息,5.459
-软件开发,南天信息,3.679
-软件开发,拓维信息,3.228
-软件开发,创意信息,5.441
-软件开发,中科江南,7.306
-软件开发,恒锋信息,5.051
-软件开发,诚迈科技,9.056
-软件开发,云赛智联,8.877
-通信服务,宜通世纪,7.937
-通信服务,中富通,4.5
-通信服务,北纬科技,3.181
-通信服务,美利云,4.941
-通信设备,日海智能,4.136
-通信设备,大唐电信,-1.847
-通信设备,鼎信通讯,-0.173
-通信设备,海能达,-4.416
-通信设备,美利信,8.146
-通信设备,东方通信,2.513
-消费电子,慧为智能,11.452
-消费电子,波导股份,2.073
-消费电子,卓翼科技,2.449
-消费电子,福日电子,3.212
-消费电子,春秋电子,4.073
-消费电子,安洁科技,6.82
-消费电子,智新电子,8.999
-品牌消费电子,传音控股,5.847
-品牌消费电子,国光电器,4.138
-专用设备,银宝山新,3.66
-专用设备,和科达,1.165
-自动化设备,海得控制,4.158
-自动化设备,瑞松科技,-2.175
-通用设备,宇晶股份,7.508
-通用设备,宝塔实业,-10.012
-工业金属,鹏欣资源,9.854
-工业金属,金诚信,3.823
-汽车零部件,万安科技,6.999
-汽车零部件,日盈电子,2.754
-汽车零部件,一彬科技,4.016
-汽车零部件,申达股份,1.749
-汽车零部件,雷迪克,6.182
-汽车零部件,金鸿顺,3.403
-汽车零部件,瑞鹄模具,3.322
-产业地产,海泰发展,1.984
-产业地产,张江高科,3.571
-住宅开发,渝开发,4.02
-住宅开发,新华联,5.625
-输变电设备,保变电气,-3.802
-输变电设备,中电兴发,3.546
-电气自控设备,华盛昌,4.386
-生物制品,双成药业,9.985
-化学制药,赛托生物,7.231
-饮料制造,莫高股份,2.076
-白酒,岩石股份,9.987
-热力,大连热电,1.741
-高速公路,重庆路桥,2.686
-百货零售,供销大集,4.211
-百货零售,银座股份,1.814
-互联网电商,吉宏股份,5.085
-数字媒体,值得买,2.504
-出版,新华传媒,2.208
-化学制品,华软科技,3.548
-非金属材料,龙高股份,0.0
-印制电路板,金禄电子,4.478
-电子化学品,德邦科技,5.745
-航空装备,烽火电子,2.493
-地面兵装,捷强装备,4.283
-军工电子,奥维通信,3.469
-军工电子,宏达电子,6.083
-综合环境治理,岭南股份,1.316
-环保设备,国林科技,5.137
-专业服务,实朴检测,6.796
-多元金融,弘业期货,3.165
-多元金融,新力金融,0.131
-横向通用软件,任子行,6.813
-横向通用软件,国华网安,2.988
-其他计算机设备,盛视科技,4.572
-其他计算机设备,正元智慧,5.247
-IT服务,新炬网络,3.283
-IT服务,汇纳科技,8.957
-家电零部件,海立股份,-0.622
-消费电子,国光电器,4.211
-白色家电,大龙地产,3.01
-有色金属,拓维信息,2.744
-医药生物,常山北明,5.459
-纺织服饰,盛视科技,-2.31
-食品饮料,诚迈科技,5.247
-通信设备,大唐电信,5.562
-化学制品,长城证券,-1.747
-机械设备,海得控制,6.182
-电力设备,春秋电子,2.19
-机械设备,江铃汽车,5.478
-环保设备,天威保变,-3.234
-计算机,瑞鹄模具,6.253
-传媒,金正食品,-2.798
-汽车零部件,欧菲光,4.943
-计算机,中信重工,5.663
-建筑装饰,未知股票,1.27
+Industry,Stock Name,Percentage Change
+Automobile Components,NWTN,62.44%
+Automobiles,ZK,24.84%
+Biotechnology,CLDI,29.76%
+Biotechnology,TVGN,19.14%
+Biotechnology,SEPN,18.89%
+Biotechnology,ALBT,13.86%
+Biotechnology,SLNHP,13.22%
+Biotechnology,QLGN,12.50%
+Biotechnology,NTZ,11.53%
+Biotechnology,OPY,11.44%
+Biotechnology,MNDR,10.07%
+Broadline Retail,JFBR,22.43%
+Broadline Retail,CANG,17.46%
+Broadline Retail,HUSA,11.11%
+Broadline Retail,CGC,10.79%
+Broadline Retail,BROG,10.00%
+Building Products,SGBX,20.00%
+Capital Markets,DJT,11.44%
+Commercial Services & Supplies,PGHL,15.89%
+Commercial Services & Supplies,SPPL,10.03%
+Consumer Finance,FAAS,12.80%
+Consumer Staples Distribution & Retail,CJJD,19.07%
+Consumer Staples Distribution & Retail,ABVE,17.65%
+Consumer Staples Distribution & Retail,CHSN,16.17%
+Electrical Equipment,XCH,14.38%
+"Electronic Equipment, Instruments & Components",LINK,36.00%
+"Electronic Equipment, Instruments & Components",XPON,21.88%
+Entertainment,SAIA,11.39%
+Entertainment,KUKE,11.37%
+Financial Services,BMTX,47.20%
+Financial Services,JNVR,13.64%
+Food Products,RMCF,14.80%
+Food Products,CASI,11.49%
+Ground Transportation,BIOR,11.43%
+Health Care Equipment & Supplies,POAI,17.25%
+Health Care Equipment & Supplies,NUWE,13.41%
+Health Care Equipment & Supplies,FOA,12.74%
+Health Care Equipment & Supplies,NBIS,11.00%
+Health Care Equipment & Supplies,HCWC,10.87%
+Health Care Equipment & Supplies,KSCP,10.07%
+Health Care Equipment & Supplies,ECOR,10.06%
+Health Care Providers & Services,ATPC,26.45%
+"Hotels, Restaurants & Leisure",PNST,16.81%
+Household Durables,NWL,21.59%
+Household Durables,SKYX,17.50%
+Household Durables,WISA,11.70%
+IT Services,LGCB,11.08%
+IT Services,YYAI,10.52%
+Interactive Media & Services,MYTE,9.96%
+Leisure Products,FTEL,44.39%
+Leisure Products,VEEE,13.33%
+Leisure Products,APPF,10.55%
+Machinery,NCRA,44.36%
+Machinery,MWG,15.67%
+Media,CDTX,12.90%
+Metals & Mining,INHD,18.99%
+N/A,ELAB,N/A
+"Oil, Gas & Consumable Fuels",GLXG,11.11%
+"Oil, Gas & Consumable Fuels",APYX,10.00%
+Passenger Airlines,SAVE,15.29%
+Personal Care Products,UPXI,170.00%
+Personal Care Products,SAG,9.89%
+Pharmaceuticals,ITRM,60.68%
+Pharmaceuticals,MRNS,36.86%
+Pharmaceuticals,ACRS,31.01%
+Pharmaceuticals,IBRX,26.37%
+Pharmaceuticals,IBO,19.43%
+Pharmaceuticals,IPA,17.93%
+Pharmaceuticals,TFFP,15.05%
+Pharmaceuticals,INM,14.86%
+Pharmaceuticals,OKYO,14.55%
+Pharmaceuticals,MIRA,14.16%
+Pharmaceuticals,TARA,13.00%
+Pharmaceuticals,PTPI,12.94%
+Pharmaceuticals,ABTS,12.41%
+Pharmaceuticals,ENSC,12.32%
+Pharmaceuticals,TELA,10.85%
+Professional Services,LTBR,23.95%
+Professional Services,BHAT,11.20%
+Semiconductors & Semiconductor Equipment,DQ,16.09%
+Semiconductors & Semiconductor Equipment,SLS,11.82%
+Software,ARBB,107.30%
+Software,PHUN,25.00%
+Software,PODC,19.63%
+Software,MFI,17.41%
+Software,KWE,17.33%
+Software,HRYU,13.57%
+Software,MMA,13.26%
+Software,ANTE,12.82%
+Software,PDYN,12.56%
+Software,FLGC,11.45%
+Software,DECK,10.57%
+Software,AIFF,10.43%
+Software,ALLK,10.08%
+Specialty Retail,DRCT,9.93%
+"Technology Hardware, Storage & Peripherals",SYTA,12.61%
+"Textiles, Apparel & Luxury Goods",TPR,13.54%
+"Textiles, Apparel & Luxury Goods",MOGU,10.68%
+Trading Companies & Distributors,UAVS,30.81%
+Wireless Telecommunication Services,ICCM,12.73%
