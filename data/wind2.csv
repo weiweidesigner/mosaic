@@ -1,99 +1,99 @@
-Industry	Ticker	Value
-Automobile Components	LAZR	473.3
-Automobiles	NKLA	268.67
-Beverages	LQR	4.45
-Biotechnology	GLUE	581.81
-Biotechnology	CDIO	9.55
-Biotechnology	SGMO	424.77
-Biotechnology	ALBT	4.73
-Biotechnology	CELZ	6.89
-Biotechnology	CUE	107.17
-Biotechnology	UNCY	47.08
-Biotechnology	LPTX	158.8
-Biotechnology	VERA	2600
-Biotechnology	PRTA	946
-Building Products	WLGS	45.89
-Commercial Services & Supplies	SERV	506.36
-Commercial Services & Supplies	MPU	60.71
-Consumer Staples Distribution & Retail	CHSN	274.42
-Distributors	GNLN	2.51
-Diversified Consumer Services	QSG	176.34
-Electric Utilities	OKLO	2990
-Electronic Equipment, Instruments & Components	JKS	1470
-Electronic Equipment, Instruments & Components	CSIQ	1030
-Entertainment	KUKE	23.52
-Financial Services	ILLR	142.42
-Food Products	TWG	40.6
-Health Care Equipment & Supplies	AMIX	14.24
-Health Care Equipment & Supplies	PRCT	4750
-Health Care Equipment & Supplies	PXDT	12.04
-Health Care Equipment & Supplies	QTI	18.01
-Health Care Equipment & Supplies	TRIB	25.02
-Health Care Technology	MDAI	28.33
-Household Durables	NCL	6.06
-IT Services	GMM	21.9
-IT Services	RGTI	286.87
-IT Services	NBIS	4730
-IT Services	MIGI	34.32
-IT Services	RUM	2520
-Independent Power and Renewable Electricity Producers	SMR	5480
-Independent Power and Renewable Electricity Producers	FCEL	204.06
-Insurance	RDZN	70.49
-Interactive Media & Services	ONFO	7.43
-Interactive Media & Services	DOYU	341.35
-Life Sciences Tools & Services	GUTS	132.28
-Life Sciences Tools & Services	RPID	45.92
-Life Sciences Tools & Services	GNLX	102.22
-Life Sciences Tools & Services	KLTO	11.67
-Machinery	ZONE	14.25
-Machinery	RR	71.56
-Media	ANTE	7.84
-Media	DALN	31.95
-Media	FUBO	589.51
-Metals & Mining	AUST	36.36
-Metals & Mining	ATLX	156.31
-Metals & Mining	LITM	9.87
-Metals & Mining	PLL	265.01
-Metals & Mining	LGO	152.81
-Pharmaceuticals	GNPX	9.86
-Pharmaceuticals	EVOK	5.8
-Pharmaceuticals	RGC	79.38
-Pharmaceuticals	EYPT	648.64
-Pharmaceuticals	RVNC	618.46
-Pharmaceuticals	XTLB	10.35
-Pharmaceuticals	ANIX	127.75
-Pharmaceuticals	MIRA	25.54
-Pharmaceuticals	VRPX	3.52
-Pharmaceuticals	IBRX	4300
-Pharmaceuticals	IRD	35.37
-Pharmaceuticals	EQ	48.18
-Pharmaceuticals	ATXI	3.61
-Pharmaceuticals	INDP	15.7
-Pharmaceuticals	SCLX	188.34
-Professional Services	LTBR	132.53
-Professional Services	SAIH	27.84
-Real Estate Management & Development	SGD	3.5
-Semiconductors & Semiconductor Equipment	LASR	636.7
-Semiconductors & Semiconductor Equipment	DQ	1920
-Software	HRYU	26.88
-Software	HCTI	7.37
-Software	PRCH	258.92
-Software	PAVS	66.73
-Software	BTDR	1380
-Software	SVRE	3.26
-Software	DJT	9480
-Software	SPAI	30.23
-Software	SOUN	2200
-Software	IREN	2060
-Software	QUBT	121.78
-Software	ORKT	48.17
-Software	GRYP	28.74
-Software	VERB	9.6
-Software	HUT	1610
-Software	QBTS	189.2
-Software	SDIG	86.72
-Software	RCAT	230.75
-Specialty Retail	CTNT	8.94
-Technology Hardware, Storage & Peripherals	DDD	439.46
-Textiles, Apparel & Luxury Goods	NCI	16.66
-Trading Companies & Distributors	UAVS	2.29
+Industry	Ticker	Percentage Change	Market Cap (USD)
+Automobile Components	LAZR	0.94	473.3
+Automobiles	NKLA	5.31	268.67
+Beverages	LQR	0.8	4.45
+Biotechnology	GLUE	9.48	581.81
+Biotechnology	CDIO	0.31	9.55
+Biotechnology	SGMO	2.04	424.77
+Biotechnology	ALBT	4.3	4.73
+Biotechnology	CELZ	3.94	6.89
+Biotechnology	CUE	1.78	107.17
+Biotechnology	UNCY	0.5	47.08
+Biotechnology	LPTX	4.15	158.8
+Biotechnology	VERA	47.34	2600
+Biotechnology	PRTA	17.59	946
+Building Products	WLGS	3.04	45.89
+Commercial Services & Supplies	SERV	11.8	506.36
+Commercial Services & Supplies	MPU	1.5	60.71
+Consumer Staples Distribution & Retail	CHSN	12.82	274.42
+Distributors	GNLN	3.8	2.51
+Diversified Consumer Services	QSG	3.45	176.34
+Electric Utilities	OKLO	24.5	2990
+Electronic Equipment, Instruments & Components	JKS	27.7	1470
+Electronic Equipment, Instruments & Components	CSIQ	15.51	1030
+Entertainment	KUKE	0.73	23.52
+Financial Services	ILLR	3.01	142.42
+Food Products	TWG	0.73	40.6
+Health Care Equipment & Supplies	AMIX	12.38	14.24
+Health Care Equipment & Supplies	PRCT	91	4750
+Health Care Equipment & Supplies	PXDT	0.81	12.04
+Health Care Equipment & Supplies	QTI	0.84	18.01
+Health Care Equipment & Supplies	TRIB	2.2	25.02
+Health Care Technology	MDAI	1.53	28.33
+Household Durables	NCL	0.21	6.06
+IT Services	GMM	0.47	21.9
+IT Services	RGTI	1.5	286.87
+IT Services	NBIS	23.75	4730
+IT Services	MIGI	1.85	34.32
+IT Services	RUM	6.48	2520
+Independent Power and Renewable Electricity Producers	SMR	22	5480
+Independent Power and Renewable Electricity Producers	FCEL	0.37	204.06
+Insurance	RDZN	1.03	70.49
+Interactive Media & Services	ONFO	1.45	7.43
+Interactive Media & Services	DOYU	10.79	341.35
+Life Sciences Tools & Services	GUTS	2.76	132.28
+Life Sciences Tools & Services	RPID	1.07	45.92
+Life Sciences Tools & Services	GNLX	2.96	102.22
+Life Sciences Tools & Services	KLTO	0.55	11.67
+Machinery	ZONE	1.73	14.25
+Machinery	RR	0.75	71.56
+Media	ANTE	0.55	7.84
+Media	DALN	5.97	31.95
+Media	FUBO	1.79	589.51
+Metals & Mining	AUST	2.74	36.36
+Metals & Mining	ATLX	10.25	156.31
+Metals & Mining	LITM	0.34	9.87
+Metals & Mining	PLL	13.64	265.01
+Metals & Mining	LGO	2.39	152.81
+Pharmaceuticals	GNPX	2.74	9.86
+Pharmaceuticals	EVOK	7.08	5.8
+Pharmaceuticals	RGC	6.1	79.38
+Pharmaceuticals	EYPT	12.12	648.64
+Pharmaceuticals	RVNC	5.9	618.46
+Pharmaceuticals	XTLB	1.9	10.35
+Pharmaceuticals	ANIX	3.97	127.75
+Pharmaceuticals	MIRA	1.57	25.54
+Pharmaceuticals	VRPX	0.72	3.52
+Pharmaceuticals	IBRX	6.17	4300
+Pharmaceuticals	IRD	1.35	35.37
+Pharmaceuticals	EQ	1.36	48.18
+Pharmaceuticals	ATXI	2.52	3.61
+Pharmaceuticals	INDP	1.54	15.7
+Pharmaceuticals	SCLX	0.98	188.34
+Professional Services	LTBR	9.08	132.53
+Professional Services	SAIH	1.13	27.84
+Real Estate Management & Development	SGD	3.68	3.5
+Semiconductors & Semiconductor Equipment	LASR	13.23	636.7
+Semiconductors & Semiconductor Equipment	DQ	29.14	1920
+Software	HRYU	0.51	26.88
+Software	HCTI	1.3	7.37
+Software	PRCH	2.18	258.92
+Software	PAVS	0.99	66.73
+Software	BTDR	9.37	1380
+Software	SVRE	1.79	3.26
+Software	DJT	47.36	9480
+Software	SPAI	2.21	30.23
+Software	SOUN	6.12	2200
+Software	IREN	10.9	2060
+Software	QUBT	1.28	121.78
+Software	ORKT	2.08	48.17
+Software	GRYP	0.71	28.74
+Software	VERB	12.58	9.6
+Software	HUT	17.21	1610
+Software	QBTS	1.2	189.2
+Software	SDIG	5.14	86.72
+Software	RCAT	3.06	230.75
+Specialty Retail	CTNT	3.68	8.94
+Technology Hardware, Storage & Peripherals	DDD	3.29	439.46
+Textiles, Apparel & Luxury Goods	NCI	0.82	16.66
+Trading Companies & Distributors	UAVS	2.69	2.29
