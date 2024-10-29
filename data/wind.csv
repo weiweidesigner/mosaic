@@ -1,101 +1,99 @@
-Industry,Stock Name,Percentage Change
-Automobile Components,NWTN,62.44%
-Automobiles,ZK,24.84%
-Biotechnology,CLDI,29.76%
-Biotechnology,TVGN,19.14%
-Biotechnology,SEPN,18.89%
-Biotechnology,ALBT,13.86%
-Biotechnology,SLNHP,13.22%
-Biotechnology,QLGN,12.50%
-Biotechnology,NTZ,11.53%
-Biotechnology,OPY,11.44%
-Biotechnology,MNDR,10.07%
-Broadline Retail,JFBR,22.43%
-Broadline Retail,CANG,17.46%
-Broadline Retail,HUSA,11.11%
-Broadline Retail,CGC,10.79%
-Broadline Retail,BROG,10.00%
-Building Products,SGBX,20.00%
-Capital Markets,DJT,11.44%
-Commercial Services & Supplies,PGHL,15.89%
-Commercial Services & Supplies,SPPL,10.03%
-Consumer Finance,FAAS,12.80%
-Consumer Staples Distribution & Retail,CJJD,19.07%
-Consumer Staples Distribution & Retail,ABVE,17.65%
-Consumer Staples Distribution & Retail,CHSN,16.17%
-Electrical Equipment,XCH,14.38%
-"Electronic Equipment, Instruments & Components",LINK,36.00%
-"Electronic Equipment, Instruments & Components",XPON,21.88%
-Entertainment,SAIA,11.39%
-Entertainment,KUKE,11.37%
-Financial Services,BMTX,47.20%
-Financial Services,JNVR,13.64%
-Food Products,RMCF,14.80%
-Food Products,CASI,11.49%
-Ground Transportation,BIOR,11.43%
-Health Care Equipment & Supplies,POAI,17.25%
-Health Care Equipment & Supplies,NUWE,13.41%
-Health Care Equipment & Supplies,FOA,12.74%
-Health Care Equipment & Supplies,NBIS,11.00%
-Health Care Equipment & Supplies,HCWC,10.87%
-Health Care Equipment & Supplies,KSCP,10.07%
-Health Care Equipment & Supplies,ECOR,10.06%
-Health Care Providers & Services,ATPC,26.45%
-"Hotels, Restaurants & Leisure",PNST,16.81%
-Household Durables,NWL,21.59%
-Household Durables,SKYX,17.50%
-Household Durables,WISA,11.70%
-IT Services,LGCB,11.08%
-IT Services,YYAI,10.52%
-Interactive Media & Services,MYTE,9.96%
-Leisure Products,FTEL,44.39%
-Leisure Products,VEEE,13.33%
-Leisure Products,APPF,10.55%
-Machinery,NCRA,44.36%
-Machinery,MWG,15.67%
-Media,CDTX,12.90%
-Metals & Mining,INHD,18.99%
-N/A,ELAB,N/A
-"Oil, Gas & Consumable Fuels",GLXG,11.11%
-"Oil, Gas & Consumable Fuels",APYX,10.00%
-Passenger Airlines,SAVE,15.29%
-Personal Care Products,UPXI,170.00%
-Personal Care Products,SAG,9.89%
-Pharmaceuticals,ITRM,60.68%
-Pharmaceuticals,MRNS,36.86%
-Pharmaceuticals,ACRS,31.01%
-Pharmaceuticals,IBRX,26.37%
-Pharmaceuticals,IBO,19.43%
-Pharmaceuticals,IPA,17.93%
-Pharmaceuticals,TFFP,15.05%
-Pharmaceuticals,INM,14.86%
-Pharmaceuticals,OKYO,14.55%
-Pharmaceuticals,MIRA,14.16%
-Pharmaceuticals,TARA,13.00%
-Pharmaceuticals,PTPI,12.94%
-Pharmaceuticals,ABTS,12.41%
-Pharmaceuticals,ENSC,12.32%
-Pharmaceuticals,TELA,10.85%
-Professional Services,LTBR,23.95%
-Professional Services,BHAT,11.20%
-Semiconductors & Semiconductor Equipment,DQ,16.09%
-Semiconductors & Semiconductor Equipment,SLS,11.82%
-Software,ARBB,107.30%
-Software,PHUN,25.00%
-Software,PODC,19.63%
-Software,MFI,17.41%
-Software,KWE,17.33%
-Software,HRYU,13.57%
-Software,MMA,13.26%
-Software,ANTE,12.82%
-Software,PDYN,12.56%
-Software,FLGC,11.45%
-Software,DECK,10.57%
-Software,AIFF,10.43%
-Software,ALLK,10.08%
-Specialty Retail,DRCT,9.93%
-"Technology Hardware, Storage & Peripherals",SYTA,12.61%
-"Textiles, Apparel & Luxury Goods",TPR,13.54%
-"Textiles, Apparel & Luxury Goods",MOGU,10.68%
-Trading Companies & Distributors,UAVS,30.81%
-Wireless Telecommunication Services,ICCM,12.73%
+Ticker	Industry	Percentage Change	Market Cap (USD)
+LAZR	Automobile Components	0.94	473.3
+NKLA	Automobiles	5.31	268.67
+LQR	Beverages	0.8	4.45
+GLUE	Biotechnology	9.48	581.81
+CDIO	Biotechnology	0.31	9.55
+SGMO	Biotechnology	2.04	424.77
+ALBT	Biotechnology	4.3	4.73
+CELZ	Biotechnology	3.94	6.89
+CUE	Biotechnology	1.78	107.17
+UNCY	Biotechnology	0.5	47.08
+LPTX	Biotechnology	4.15	158.8
+VERA	Biotechnology	47.34	2600
+PRTA	Biotechnology	17.59	946
+WLGS	Building Products	3.04	45.89
+SERV	Commercial Services & Supplies	11.8	506.36
+MPU	Commercial Services & Supplies	1.5	60.71
+CHSN	Consumer Staples Distribution & Retail	12.82	274.42
+GNLN	Distributors	3.8	2.51
+QSG	Diversified Consumer Services	3.45	176.34
+OKLO	Electric Utilities	24.5	2990
+JKS	Electronic Equipment, Instruments & Components	27.7	1470
+CSIQ	Electronic Equipment, Instruments & Components	15.51	1030
+KUKE	Entertainment	0.73	23.52
+ILLR	Financial Services	3.01	142.42
+TWG	Food Products	0.73	40.6
+AMIX	Health Care Equipment & Supplies	12.38	14.24
+PRCT	Health Care Equipment & Supplies	91	4750
+PXDT	Health Care Equipment & Supplies	0.81	12.04
+QTI	Health Care Equipment & Supplies	0.84	18.01
+TRIB	Health Care Equipment & Supplies	2.2	25.02
+MDAI	Health Care Technology	1.53	28.33
+NCL	Household Durables	0.21	6.06
+GMM	IT Services	0.47	21.9
+RGTI	IT Services	1.5	286.87
+NBIS	IT Services	23.75	4730
+MIGI	IT Services	1.85	34.32
+RUM	IT Services	6.48	2520
+SMR	Independent Power and Renewable Electricity Producers	22	5480
+FCEL	Independent Power and Renewable Electricity Producers	0.37	204.06
+RDZN	Insurance	1.03	70.49
+ONFO	Interactive Media & Services	1.45	7.43
+DOYU	Interactive Media & Services	10.79	341.35
+GUTS	Life Sciences Tools & Services	2.76	132.28
+RPID	Life Sciences Tools & Services	1.07	45.92
+GNLX	Life Sciences Tools & Services	2.96	102.22
+KLTO	Life Sciences Tools & Services	0.55	11.67
+ZONE	Machinery	1.73	14.25
+RR	Machinery	0.75	71.56
+ANTE	Media	0.55	7.84
+DALN	Media	5.97	31.95
+FUBO	Media	1.79	589.51
+AUST	Metals & Mining	2.74	36.36
+ATLX	Metals & Mining	10.25	156.31
+LITM	Metals & Mining	0.34	9.87
+PLL	Metals & Mining	13.64	265.01
+LGO	Metals & Mining	2.39	152.81
+GNPX	Pharmaceuticals	2.74	9.86
+EVOK	Pharmaceuticals	7.08	5.8
+RGC	Pharmaceuticals	6.1	79.38
+EYPT	Pharmaceuticals	12.12	648.64
+RVNC	Pharmaceuticals	5.9	618.46
+XTLB	Pharmaceuticals	1.9	10.35
+ANIX	Pharmaceuticals	3.97	127.75
+MIRA	Pharmaceuticals	1.57	25.54
+VRPX	Pharmaceuticals	0.72	3.52
+IBRX	Pharmaceuticals	6.17	4300
+IRD	Pharmaceuticals	1.35	35.37
+EQ	Pharmaceuticals	1.36	48.18
+ATXI	Pharmaceuticals	2.52	3.61
+INDP	Pharmaceuticals	1.54	15.7
+SCLX	Pharmaceuticals	0.98	188.34
+LTBR	Professional Services	9.08	132.53
+SAIH	Professional Services	1.13	27.84
+SGD	Real Estate Management & Development	3.68	3.5
+LASR	Semiconductors & Semiconductor Equipment	13.23	636.7
+DQ	Semiconductors & Semiconductor Equipment	29.14	1920
+HRYU	Software	0.51	26.88
+HCTI	Software	1.3	7.37
+PRCH	Software	2.18	258.92
+PAVS	Software	0.99	66.73
+BTDR	Software	9.37	1380
+SVRE	Software	1.79	3.26
+DJT	Software	47.36	9480
+SPAI	Software	2.21	30.23
+SOUN	Software	6.12	2200
+IREN	Software	10.9	2060
+QUBT	Software	1.28	121.78
+ORKT	Software	2.08	48.17
+GRYP	Software	0.71	28.74
+VERB	Software	12.58	9.6
+HUT	Software	17.21	1610
+QBTS	Software	1.2	189.2
+SDIG	Software	5.14	86.72
+RCAT	Software	3.06	230.75
+CTNT	Specialty Retail	3.68	8.94
+DDD	Technology Hardware, Storage & Peripherals	3.29	439.46
+NCI	Textiles, Apparel & Luxury Goods	0.82	16.66
+UAVS	Trading Companies & Distributors	2.69	2.29
