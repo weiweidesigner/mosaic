@@ -1,0 +1,20 @@
+[
+  { "source": "Data Center", "target": "Revenue", "value": 39.11 },
+  { "source": "Gaming", "target": "Revenue", "value": 3.76 },
+  { "source": "Automotive", "target": "Revenue", "value": 0.567 },
+  { "source": "Professional Visualization", "target": "Revenue", "value": 0.509 },
+  { "source": "OEM and Others", "target": "Revenue", "value": 0.111 },
+
+  { "source": "Revenue", "target": "Cost of Revenue", "value": 17.39 },
+  { "source": "Revenue", "target": "Gross Profit", "value": 26.67 },
+
+  { "source": "Gross Profit", "target": "Operating Expenses", "value": 5.03 },
+  { "source": "Operating Expenses", "target": "SG&A", "value": 1.04 },
+  { "source": "Operating Expenses", "target": "R&D", "value": 3.99 },
+
+  { "source": "Gross Profit", "target": "Operating Profit", "value": 21.64 },
+
+  { "source": "Operating Profit", "target": "Other Items", "value": 0.272 },
+  { "source": "Operating Profit", "target": "Tax", "value": 3.14 },
+  { "source": "Operating Profit", "target": "Net Profit", "value": 18.78 }
+]
