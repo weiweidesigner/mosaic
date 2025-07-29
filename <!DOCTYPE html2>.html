@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>杭州良渚LGD电竞中心 游玩观赛攻略</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <style>
+    :root {
+      --theme-blue: #204080;
+      --theme-grad: linear-gradient(90deg,#204080 0%,#2b7eff 80%);
+      --theme-red: #e02e2e;
+      --card-bg: #fff;
+      --shadow: 0 4px 24px #22446612;
+      --border-radius: 18px;
+    }
+    body {
+      font-family: "Segoe UI", "微软雅黑", sans-serif;
+      background: #f5f8fc;
+      margin: 0; padding: 0;
+      color: #222;
+      letter-spacing: 0.02em;
+    }
+    .header {
+      background: var(--theme-grad);
+      color: #fff;
+      padding: 34px 0 18px 0;
+      text-align: center;
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      border-bottom-left-radius: var(--border-radius);
+      border-bottom-right-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .main-card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      margin: 24px auto 0 auto;
+      box-shadow: var(--shadow);
+      max-width: 630px;
+      padding: 32px 28px 12px 28px;
+    }
+    .section-title {
+      margin: 24px 0 14px 0;
+      font-size: 1.21rem;
+      font-weight: bold;
+      color: var(--theme-blue);
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title i {
+      font-size: 1.15em;
+    }
+    .icon {
+      font-style: normal;
+      font-weight: bold;
+      color: var(--theme-blue);
+    }
+    .info-list, .suggest-list, .rec-list {
+      padding-left: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .info-list li, .suggest-list li, .rec-list li {
+      margin-bottom: 10px;
+      font-size: 1.05em;
+      line-height: 1.7;
+      padding-left: 1.3em;
+      position: relative;
+    }
+    .info-list li:before {
+      content: '·';
+      position: absolute;
+      left: 0;
+      color: #b1bbd6;
+      font-size: 1.1em;
+    }
+    .suggest-list li:before {
+      content: '🎮';
+      position: absolute;
+      left: 0;
+    }
+    .rec-list li:before {
+      content: '🍜';
+      position: absolute;
+      left: 0;
+    }
+    .highlight {
+      color: var(--theme-red);
+      font-weight: 600;
+      font-size: 1.09em;
+    }
+    .map-section {
+      padding: 0;
+      margin-top: 28px;
+    }
+    #map {
+      width: 100%;
+      height: 340px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+      border: 2px solid #e8ecf5;
+    }
+    /* 移动端适配 */
+    @media (max-width: 700px) {
+      .main-card { padding: 18px 7vw 8px 7vw; margin: 16px 0 0 0; }
+      #map { height: 220px; }
+      .header { font-size: 1.32rem; padding: 22px 0 13px 0;}
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    杭州良渚 LGD电竞中心 <span style="font-size:1rem;font-weight:400;">游玩 & 观赛攻略</span>
+  </div>
+  <div class="main-card">
+    <div class="section-title"><i>🗺️</i>行程安排</div>
+    <ul class="info-list">
+      <li><b>出发地：</b>萧山融信湖悦章府</li>
+      <li><b>目的地：</b>LGD杭州电竞中心（余杭区良渚 天荟未来之光城·光剧院）</li>
+      <li><b>比赛：</b>17:00 北京WB vs LGD（王者荣耀）</li>
+      <li><b>建议出发：</b><span class="highlight">14:00</span>，<b>建议到场：</b><span class="highlight">16:30前签到</span></li>
+    </ul>
+
+    <div class="section-title"><i>⏰</i>时间规划建议</div>
+    <ol class="suggest-list">
+      <li>14:00–15:10 自驾/打车（约45–70分钟直达良渚）。</li>
+      <li>15:10–16:10 天荟未来之光城综合体 <b>美食/咖啡/短休</b>。</li>
+      <li>16:10–16:30 入场签到、安检。</li>
+      <li>17:00 开赛，<b class="highlight">提前进场找好座位</b>。</li>
+    </ol>
+
+    <div class="section-title"><i>🌟</i>周边美食&休闲推荐</div>
+    <ul class="rec-list">
+      <li>星巴克、奈雪的茶、喜茶（咖啡/奶茶快休）</li>
+      <li>肯德基、麦当劳、德克士（快餐）</li>
+      <li>云味馆/外婆家/小杨生煎（正餐/快吃）</li>
+      <li>天荟未来之光城综合体内逛街休息区</li>
+      <li>良渚文化村/遗址公园（如果预留1小时以上）</li>
+    </ul>
+
+    <div class="map-section">
+      <div class="section-title"><i>📍</i>导航地图</div>
+      <div id="map"></div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // 坐标点
+    var home = [30.22207, 120.27125];   // 萧山融信湖悦章府
+    var lgd = [30.40450, 120.21680];    // LGD电竞中心-天荟未来之光城光剧院
+    var mall = [30.40400, 120.21670];   // 商业综合体中心
+
+    var map = L.map('map').setView([(home[0]+lgd[0])/2, (home[1]+lgd[1])/2], 12.6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:19 }).addTo(map);
+
+    var homeMarker = L.marker(home).addTo(map).bindPopup('<b>萧山融信湖悦章府</b><br>(出发地)');
+    var lgdMarker = L.marker(lgd).addTo(map).bindPopup('<b>LGD电竞中心</b><br>天荟未来之光城光剧院');
+    var mallMarker = L.marker(mall).addTo(map).bindPopup('<b>天荟未来之光城</b><br>美食&休闲区');
+
+    L.polyline([home, lgd], {color:'#204080', weight:4, dashArray:'8, 12'}).addTo(map);
+    L.polyline([lgd, mall], {color:'#2b7eff', weight:2, dashArray:'2,8'}).addTo(map);
+
+    map.fitBounds(L.featureGroup([homeMarker, lgdMarker, mallMarker]).getBounds().pad(0.23));
+  </script>
+</body>
+</html>
