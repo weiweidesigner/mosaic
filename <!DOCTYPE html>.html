@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>居然之家重大事件与跳楼原因全梳理</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.3"></script>
+  <style>
+    body {
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      background: #f7f9fb;
+      margin: 0;
+      padding: 0;
+      color: #212529;
+    }
+    .page-header {
+      width: 100%;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 38px 0 0 0;
+      box-sizing: border-box;
+    }
+    .page-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #232946;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+      text-align: left;
+      line-height: 1.24;
+      padding-left: 10px;
+    }
+    .divider {
+      height: 2px;
+      background: linear-gradient(90deg, #f2f3fa 70%, #dadcf4 100%);
+      border: none;
+      margin: 0 0 22px 0;
+    }
+    .main-wrapper {
+      max-width: 920px;
+      margin: 0 auto 36px auto;
+      padding: 0 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 6px 24px rgba(40,60,120,0.10);
+      padding: 32px 32px 24px 32px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .card-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: #1a2332;
+      margin-bottom: 24px;
+      letter-spacing: 0.5px;
+      text-align: left;
+      width: 100%;
+    }
+    /* 时间轴 */
+    .timeline {
+      width: 100%;
+      max-width: 680px;
+      margin: 0;
+      position: relative;
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 48px;
+      padding-bottom: 40px;
+    }
+    .timeline-dot {
+      position: absolute;
+      top: 4px;
+      left: 16px;
+      width: 16px;
+      height: 16px;
+      background-color: #3a3a3a;
+      border-radius: 50%;
+      z-index: 1;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px #d8dbe8;
+    }
+    .timeline-item.line::before {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 24px;
+      width: 2px;
+      height: calc(100% - 12px);
+      background: #d8dbe8;
+      z-index: 0;
+    }
+    .timeline-time {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 4px;
+    }
+    .timeline-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 6px;
+    }
+    .timeline-desc {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+    }
+    /* markmap 思维导图 */
+    #mm-wanglinpeng {
+      width: 100%;
+      height: 480px;
+      min-height: 260px;
+      display: block;
+      margin: 0 auto;
+    }
+    /* 视频卡片 */
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 */
+      background: #111;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(80,100,180,0.09);
+      margin-bottom: 8px;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+    /* 响应式适配 */
+    @media (max-width: 800px) {
+      .page-header, .main-wrapper { max-width: 99vw; }
+      .card { padding: 18px 3vw 18px 2vw; }
+      #mm-wanglinpeng { height: 320px; }
+      .timeline { max-width: 99vw; }
+      .page-title { font-size: 1.4rem; padding-left: 5px;}
+    }
+    @media (max-width: 500px) {
+      .page-title { font-size: 1.1rem; margin-bottom: 8px;}
+      .card-title { font-size: 17px; margin-bottom: 13px; }
+      .card { padding: 13px 2vw 14px 2vw; }
+      .timeline-item { padding-left: 42px; }
+      .timeline-dot { left: 9px; width: 13px; height: 13px; }
+      .timeline-item.line::before { left: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <div class="page-title">居然之家重大事件与董事长跳楼原因全梳理</div>
+    <div class="divider"></div>
+  </div>
+  <div class="main-wrapper">
+    <!-- 时间轴 -->
+    <div class="card">
+      <div class="card-title">居然之家 2019-2025 重要事件时间轴</div>
+      <div class="timeline">
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2019年</div>
+          <div class="timeline-title">登陆A股，市值创新高</div>
+          <div class="timeline-desc">
+            居然之家通过借壳正式登陆A股市场，首日收盘市值高达630亿，成为A股市场家居卖场第一股。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2024年</div>
+          <div class="timeline-title">品牌更名与数字化转型</div>
+          <div class="timeline-desc">
+            居然之家更名为“居然智家”，披露六大自营IP，深耕设计、施工、材料采购等六条数字化转型新赛道。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2024年</div>
+          <div class="timeline-title">业绩下滑</div>
+          <div class="timeline-desc">
+            居然智家实现营收129.66亿元，同比下滑4.04%；归母净利润7.69亿元，同比下滑40.83%。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2025年一季度</div>
+          <div class="timeline-title">营收微增，净利大降</div>
+          <div class="timeline-desc">
+            居然智家一季度营收33.12亿元，同比增长5.58%；归母净利润2.12亿元，同比下降39.39%。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2025年</div>
+          <div class="timeline-title">司法冻结与监察调查</div>
+          <div class="timeline-desc">
+            汪林朋被湖北省监察委员会司法冻结3.72亿股，冻结期至2025年10月16日。<br>
+            汪林朋被武汉市江汉区监察委员会留置、立案调查，后解除留置，变更为责令候查措施，并回到工作岗位正常履职。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2025年</div>
+          <div class="timeline-title">广州新塘门店卷款事件</div>
+          <div class="timeline-desc">
+            居然之家广州新塘商场多家家居门店以“国家补贴”名义诱导消费者预付全款后卷款失联，涉案金额近1300万元，涉及超200户消费者。
+          </div>
+        </div>
+        <div class="timeline-item line">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2025年</div>
+          <div class="timeline-title">汪林朋新春梦想发言</div>
+          <div class="timeline-desc">
+            新春座谈会上提出居然智家的四个梦想：“设计AI，智能装修”、“智能家居，健康生活”、“垂直大模型，产业赋能”、“国际化，抱团出海”。
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-time">2025年</div>
+          <div class="timeline-title">全球化战略布局</div>
+          <div class="timeline-desc">
+            汪林朋在亚布力论坛宣布构建全球服务网络，成立美国、欧洲、中亚、中东分公司，全力拓展海外业务。
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- markmap 思维导图 -->
+    <div class="card">
+      <div class="card-title">董事长汪林朋跳楼原因分析（结构梳理）</div>
+      <svg id="mm-wanglinpeng"></svg>
+    </div>
+    <!-- 视频卡片 -->
+    <div class="card">
+      <div class="card-title">中国最大家居卖场董事长跳楼原因全梳理（视频解读）</div>
+      <div class="video-wrapper">
+        <iframe src="https://player.bilibili.com/player.html?bvid=BV1s48VzTELA&autoplay=0"
+          allowfullscreen="true" scrolling="no"></iframe>
+      </div>
+    </div>
+  </div>
+  <script>
+    const data = {
+      content: "汪林朋跳楼原因",
+      children: [
+        {
+          content: "借壳上市争议压力",
+          children: [
+            { content: "2019年借壳武汉中商上市，交易356.5亿元" },
+            { content: "武汉国资持股大降，个人持股飙升引发国有资产流失质疑" },
+            { content: "2022年未达标后“1元回购2.41亿股”补偿操作被指利益输送" },
+            { content: "被留置调查，巨大心理压力" }
+          ]
+        },
+        {
+          content: "企业经营困境",
+          children: [
+            { content: "业绩连续三年“双降”，2024年营收和净利润大幅下滑" },
+            { content: "卖场出租率仅78%，资产负债率达60%" },
+            { content: "一年内到期有息负债93亿元，账上可用资金仅47亿元" },
+            { content: "“智家”转型三年投40亿，收入占比不足12%" },
+            { content: "行业寒冬，转型压力巨大" }
+          ]
+        },
+        {
+          content: "心理落差巨大",
+          children: [
+            { content: "上市当天身家368亿元，湖北首富" },
+            { content: "股价跌去80%，质押率超70%" },
+            { content: "两次大宗减持套现22亿，被质疑“跑路”" },
+            { content: "留置期间母亲、妻子、高管被带走协查" },
+            { content: "从风光到困境，心理防线崩溃" }
+          ]
+        },
+        {
+          content: "行业商业模式弊端",
+          children: [
+            { content: "高度依赖地产，地产下行带来巨大挑战" }
+          ]
+        }
+      ]
+    };
+    window.mm = markmap.Markmap.create(
+      "#mm-wanglinpeng",
+      { preset: 'colorful', autoFit: true },
+      data
+    );
+  </script>
+</body>
+</html>
