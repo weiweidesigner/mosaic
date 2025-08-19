@@ -1,0 +1,39 @@
+<div style="width: 100%; max-width: 600px; margin: auto; padding: 24px; background: linear-gradient(135deg, #ffffff, #f9f9f9); border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+  <h3 style="margin-bottom: 12px; font-size: 20px; color: #333333;">Apple (AAPL) Closing Price – Last 10 Trading Days</h3>
+
+  <p id="loading-text" style="color: #666666; font-size: 15px; margin-bottom: 24px;">
+    Rendering chart<span id="dots">.</span>
+  </p>
+
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div class="skeleton-bar" style="width: 80%; height: 16px;"></div>
+    <div class="skeleton-bar" style="width: 95%; height: 16px;"></div>
+    <div class="skeleton-bar" style="width: 70%; height: 16px;"></div>
+    <div class="skeleton-bar" style="width: 100%; height: 16px;"></div>
+  </div>
+
+  <style>
+    .skeleton-bar {
+      border-radius: 6px;
+      background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.6s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+
+  <script>
+    const dots = document.getElementById("dots");
+    let count = 0;
+    setInterval(() => {
+      count = (count + 1) % 4;
+      dots.textContent = ".".repeat(count);
+    }, 500);
+  </script>
+
+</div>
